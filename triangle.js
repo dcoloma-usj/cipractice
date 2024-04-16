@@ -19,7 +19,7 @@ function getTriangleType(lengthA, lengthB, lengthC) { // eslint-disable-line no-
     var b = parseFloat(lengthB);
     var c = parseFloat(lengthC);
     if ((a <= 0) || (b <= 0) || (c <= 0)) { // A side is not positive
-      type = NOT_A_TRIANGLE;
+      type = INVALID_ARGUMENTS;
     } else if ( (a+b <= c) || (a+c <= b) || (b+c <= a)) { // invalid triangle
       type = NOT_A_TRIANGLE;
     } else { // All sides different = scalene
