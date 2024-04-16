@@ -6,7 +6,7 @@ var SCALENE = 'Scalene triangle';
 
 /*
  * Given the three sides of a triangle it calculates the type of the
- * triangle.
+ * triangle.a
  */
 function getTriangleType(lengthA, lengthB, lengthC) { // eslint-disable-line no-unused-vars
   var type = '';
